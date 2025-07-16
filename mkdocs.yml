@@ -1,0 +1,18 @@
+site_name: "BBQS Models Documentation"
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: white
+  features:
+    - content.tabs.link
+plugins:
+  - search
+  - mermaid2
+
+nav:
+  - Overview: index.md
+  - Models:
+    - Projects Metadata: index_bbqs_projects_metadata.md
+
+repo_url: http://sensein.group/bbqs_projects_models/
