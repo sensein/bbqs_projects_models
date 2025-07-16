@@ -14,5 +14,8 @@ nav:
   - Overview: index.md
   - Models:
     - Projects Metadata: index_bbqs_projects_metadata.md
+  - Visualizations: 
+    - Library Generation: bbqs_projects_metadata.md
+
 
 repo_url: http://sensein.group/bbqs_projects_models/
