@@ -1,0 +1,252 @@
+name: bbqs-projects-metadata
+title: BBQS Projects Metadata Schema
+id: https://identifiers.org/bbqs/project-metadata-schema
+imports:
+- linkml:types
+prefixes:
+  bbqs: https://identifiers.org/bbqs/project-metadata-schema
+  linkml: https://w3id.org/linkml/
+default_prefix: bbqs
+default_range: string
+enums:
+  sensors:
+    from_schema: https://identifiers.org/bbqs/project-metadata-schema
+    permissible_values:
+      video cameras: {}
+      neuropixels: {}
+      thermal cameras: {}
+      ultrasonic microphones: {}
+      RNA sequencing: {}
+      heart rate sensors: {}
+      eye tracker: {}
+      infrared cameras: {}
+      wireless neural: {}
+      IMU: {}
+      microphones: {}
+      RFID: {}
+      respiration sensors: {}
+      accelerometer: {}
+      EEG: {}
+      EDA: {}
+      plethsymography: {}
+      intranasal thermistor: {}
+      EMG: {}
+      GPS: {}
+      neuroimaging sensors: {}
+      iEEG: {}
+      motion tracking: {}
+      cortisol wearable: {}
+      epinephrine wearable: {}
+      optically pumped magnetometers: {}
+      smartphone camera: {}
+      skin temperature sensor: {}
+  data_modalities:
+    from_schema: https://identifiers.org/bbqs/project-metadata-schema
+    permissible_values:
+      visual: {}
+      neural: {}
+      audio: {}
+      molecular: {}
+      kinematic: {}
+      physiological: {}
+      spatial: {}
+      biochemical: {}
+  approaches:
+    from_schema: https://identifiers.org/bbqs/project-metadata-schema
+    permissible_values:
+      pose estimation: {}
+      object detection: {}
+      feature extraction: {}
+      behavior tracking: {}
+      graph modeling: {}
+      self-supervised learning: {}
+      physiological signal analysis: {}
+      speech analysis: {}
+      source localization: {}
+      deep learning: {}
+      social network analysis: {}
+      clustering: {}
+      facial expression analysis: {}
+      EEG hyperscanning: {}
+      emotion estimation: {}
+      correlation analysis: {}
+      EMG tracking: {}
+      neural activity modeling: {}
+      stress analysis: {}
+      approach-avoidance modeling: {}
+      augmented reality: {}
+      virtual reality: {}
+      spatial navigation tracking: {}
+      magnetometry: {}
+      coherence analysis: {}
+      memory analysis: {}
+      emotion correlation: {}
+      ecological momentary assessment: {}
+      mental state estimation: {}
+      multimodal analysis: {}
+  collected_data_type:
+    from_schema: https://identifiers.org/bbqs/project-metadata-schema
+    permissible_values:
+      Neural data:
+        description: Neural data (e.g., EEG, MEG, fMRI, ECoG, single-unit recordings)
+      Behavioral data:
+        description: Behavioral data (e.g., video recordings, motion capture, eye
+          tracking, gait analysis)
+      Cognitive performance data:
+        description: Cognitive performance data (e.g., reaction times, accuracy, task
+          performance metrics)
+      Environmental data:
+        description: Environmental data (e.g., ambient light, temperature, sound levels)
+      Social interaction data:
+        description: Social interaction data (e.g., proximity sensors, communication
+          logs)
+      Wearable sensor data: {}
+      Physiological data:
+        description: Physiological data (e.g., heart rate, skin conductance, respiratory
+          rate)
+      Biochemical data:
+        description: Biochemical data (e.g., hormone levels, neurotransmitter concentrations)
+      Self-report data:
+        description: Self-report data (e.g., questionnaires, diaries, surveys)
+      Genetic data:
+        description: Genetic data (e.g., DNA sequencing, gene expression profiles)
+  behavior:
+    from_schema: https://identifiers.org/bbqs/project-metadata-schema
+    permissible_values:
+      Locomotion and Movement: {}
+      Gait Analysis: {}
+      Vocalizations and Speech: {}
+      Social Interactions: {}
+      Exploratory Behavior: {}
+      Emotional and Stress Responses: {}
+      Physical Activity Levels: {}
+      Reproductive Behaviors: {}
+      Posture and Balance: {}
+      Eye Movements: {}
+      Cognitive and Memory Tasks: {}
+      Sleep and Rest: {}
+      Operant Conditioning and Learning: {}
+      Facial Expressions: {}
+      Feeding and Drinking: {}
+  data_analysis_method:
+    from_schema: https://identifiers.org/bbqs/project-metadata-schema
+    permissible_values:
+      Statistical analysis: {}
+      Signal processing: {}
+      Dimensionality reduction: {}
+      Dynamical systems modeling: {}
+      Encoding models: {}
+      Decoding models: {}
+      Correlation analysis: {}
+      Regression models: {}
+      Time-frequency analysis: {}
+      Bayesian inference: {}
+      Network analysis: {}
+      Regression models Statistical analysis: {}
+      Other: {}
+  software_type:
+    from_schema: https://identifiers.org/bbqs/project-metadata-schema
+    permissible_values:
+      Analysis: {}
+      Behavioral quantification: {}
+      Behavioral segmentation: {}
+      Prediction: {}
+      Benchmark: {}
+      Temporal data: {}
+      Computer vision: {}
+      ML model: {}
+      End product: {}
+      Tracking: {}
+      Regression model: {}
+      VR/AR: {}
+      Encoding: {}
+      Synchronization: {}
+      Feature detection: {}
+      Dimensionality reduction: {}
+      Pose estimation: {}
+classes:
+  Project:
+    from_schema: https://identifiers.org/bbqs/project-metadata-schema
+    attributes:
+      award_id:
+        description: award number, can be used as id
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+      principle_investigators:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+        multivalued: true
+      investigators:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+        multivalued: true
+      presentations:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+        multivalued: true
+      abstract:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+      website:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+      NIH_report:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+      study_human:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+      study_species:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+      use_sensors:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+        multivalued: true
+      use_approaches:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+      produce_data_modality:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+        multivalued: true
+      produce_data_type:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+        multivalued: true
+      develope_hardware_type:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+        multivalued: true
+      develope_software_type:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+        multivalued: true
+      use_analysis_method:
+        description: statistical or computational methods do you primarily rely on
+          for your data analysis
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+        multivalued: true
+      use_analysis_types:
+        description: types of analyses are you performing on your neural and behavioral
+          data
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+        multivalued: true
+  Collaborator:
+    from_schema: https://identifiers.org/bbqs/project-metadata-schema
+    attributes:
+      name:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+      email:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+      organization:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+      ORCID_id:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+  Team:
+    from_schema: https://identifiers.org/bbqs/project-metadata-schema
+  Species:
+    from_schema: https://identifiers.org/bbqs/project-metadata-schema
+    attributes:
+      id:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+      name:
+        description: human readable
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+      full_name:
+        description: full name
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+  Abstract:
+    from_schema: https://identifiers.org/bbqs/project-metadata-schema
+    attributes:
+      id:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+      contents:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema
+      keywords:
+        from_schema: https://identifiers.org/bbqs/project-metadata-schema

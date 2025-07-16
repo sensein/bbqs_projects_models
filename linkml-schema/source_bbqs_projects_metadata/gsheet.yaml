@@ -1,0 +1,12 @@
+gsheet_id: "1esqLgm5Iw265fBAWAiChSy9BuM-n0r96I5y35jpSuoU"
+sheets:
+  - name: "Classes"
+    gid: "0"
+  - name: "Attributes"
+    gid: "267281881"
+  - name: "ValueSets"
+    gid: "1314342462"
+  - name: "Prefixes"
+    gid: "1002889399"
+  - name: "Schema"
+    gid: "2077221868"

@@ -1,0 +1,129 @@
+variable_name	value	description
+> enum	permissible_value	description
+sensors	video cameras	
+sensors	neuropixels	
+sensors	thermal cameras	
+sensors	ultrasonic microphones	
+sensors	RNA sequencing	
+sensors	heart rate sensors	
+sensors	eye tracker	
+sensors	infrared cameras	
+sensors	wireless neural	
+sensors	IMU	
+sensors	microphones	
+sensors	RFID	
+sensors	respiration sensors	
+sensors	accelerometer	
+sensors	EEG	
+sensors	EDA	
+sensors	plethsymography	
+sensors	intranasal thermistor	
+sensors	EMG	
+sensors	GPS	
+sensors	neuroimaging sensors	
+sensors	iEEG	
+sensors	motion tracking	
+sensors	cortisol wearable	
+sensors	epinephrine wearable	
+sensors	optically pumped magnetometers	
+sensors	smartphone camera	
+sensors	skin temperature sensor	
+data_modalities	visual	
+data_modalities	neural	
+data_modalities	audio	
+data_modalities	molecular	
+data_modalities	kinematic	
+data_modalities	physiological	
+data_modalities	spatial	
+data_modalities	biochemical	
+approaches	pose estimation	
+approaches	object detection	
+approaches	feature extraction	
+approaches	behavior tracking	
+approaches	graph modeling	
+approaches	self-supervised learning	
+approaches	physiological signal analysis	
+approaches	speech analysis	
+approaches	source localization	
+approaches	deep learning	
+approaches	social network analysis	
+approaches	clustering	
+approaches	facial expression analysis	
+approaches	EEG hyperscanning	
+approaches	emotion estimation	
+approaches	correlation analysis	
+approaches	EMG tracking	
+approaches	neural activity modeling	
+approaches	stress analysis	
+approaches	approach-avoidance modeling	
+approaches	augmented reality	
+approaches	virtual reality	
+approaches	spatial navigation tracking	
+approaches	magnetometry	
+approaches	coherence analysis	
+approaches	memory analysis	
+approaches	emotion correlation	
+approaches	ecological momentary assessment	
+approaches	mental state estimation	
+approaches	multimodal analysis	
+collected_data_type	Neural data	Neural data (e.g., EEG, MEG, fMRI, ECoG, single-unit recordings)
+collected_data_type	Behavioral data	Behavioral data (e.g., video recordings, motion capture, eye tracking, gait analysis)
+collected_data_type	Cognitive performance data	Cognitive performance data (e.g., reaction times, accuracy, task performance metrics)
+collected_data_type	Environmental data	Environmental data (e.g., ambient light, temperature, sound levels)
+collected_data_type	Social interaction data	Social interaction data (e.g., proximity sensors, communication logs)
+collected_data_type	Wearable sensor data	Wearable sensor data (e.g., accelerometers, gyroscopes, smartwatches)
+collected_data_type	Physiological data	Physiological data (e.g., heart rate, skin conductance, respiratory rate)
+collected_data_type	Biochemical data	Biochemical data (e.g., hormone levels, neurotransmitter concentrations)
+collected_data_type	Self-report data	Self-report data (e.g., questionnaires, diaries, surveys)
+collected_data_type	Wearable sensor data	
+collected_data_type	Genetic data	Genetic data (e.g., DNA sequencing, gene expression profiles)
+behavior	Locomotion and Movement	
+behavior	Gait Analysis	
+behavior	Vocalizations and Speech	
+behavior	Social Interactions	
+behavior	Exploratory Behavior	
+behavior	Emotional and Stress Responses	
+behavior	Physical Activity Levels	
+behavior	Reproductive Behaviors	
+behavior	 Locomotion and Movement	
+behavior	Posture and Balance	
+behavior	Eye Movements	
+behavior	Cognitive and Memory Tasks	
+behavior	Sleep and Rest	
+behavior	Operant Conditioning and Learning	
+behavior	 Posture and Balance	
+behavior	Facial Expressions	
+behavior	 Social Interactions	
+behavior	Feeding and Drinking	
+data_analysis_method	Statistical analysis	
+data_analysis_method	Signal processing	
+data_analysis_method	Dimensionality reduction	
+data_analysis_method	Dynamical systems modeling	
+data_analysis_method	Encoding models	
+data_analysis_method	Decoding models	
+data_analysis_method	Correlation analysis	
+data_analysis_method	Regression models	
+data_analysis_method	 Statistical analysis	
+data_analysis_method	Time-frequency analysis	
+data_analysis_method	Bayesian inference	
+data_analysis_method	Network analysis	
+data_analysis_method	 Dimensionality reduction	
+data_analysis_method	Regression models Statistical analysis	
+data_analysis_method	Other	
+software_type	Analysis	
+software_type	Behavioral quantification	
+software_type	Behavioral segmentation	
+software_type	Prediction	
+software_type	Benchmark	
+software_type	Temporal data	
+software_type	Computer vision	
+software_type	ML model	
+software_type	End product	
+software_type	Tracking	
+software_type	Regression model	
+software_type	VR/AR	
+software_type	Encoding 	
+software_type	Synchronization	
+software_type	Feature detection	
+software_type	Dimensionality reduction	
+software_type	Pose estimation	

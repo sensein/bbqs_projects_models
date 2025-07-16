@@ -1,0 +1,34 @@
+[build-system]
+# Setuptools version should match setup.py; wheel because pip will insert it noisily
+requires = ["setuptools >= 61.0", "setuptools-scm"]
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "bbqs_projects_metadata"
+version = "0.0.1"
+authors = [
+  { name="bbqs"},
+]
+description = "A library for bbqs data models"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = {text = "Apache 2.0"}
+dependencies = [
+    "linkml==1.8.6",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
+docs = [
+    "mkdocs-material",
+    "mkdocs-mermaid2-plugin"
+]
+
+[project.urls]
+"Homepage" = "http://sensein.group/bbqs_projects_models/"

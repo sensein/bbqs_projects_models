@@ -1,0 +1,30 @@
+SubGroup/LinkML Class Name	Proposed BBQS Field	LinkML Attribute Name	Definition	Where is it now?	How we can get in the future?	Constant / Mutable	Can be automated?	Data Type	Multivalued	Permissible Values	Nullable	Required	Data Examples	Subsets	Notes
+> class	alias	attribute	description	ignore	ignore	ignore	ignore	ignore	multivalued	ignore	ignore	ignore	ignore	in_subset	ignore
+>														internal_separator: "|"	
+Project		award_id	award number, can be used as id	Kailin G-sheet		Constant			no			yes			
+Project		principle_investigators		Kailin G-sheet		Constant		Collaborator	yes			yes			
+Project		investigators				Mutable		Collaborator	yes			yes			
+Project		presentations				Mutable		Presentation	yes			yes			
+Project		abstract				Constant		Abstract							
+Project		website				Mutable		string							
+Project		NIH_report				Constant		string							
+Project		study_human				Mutable		boolean							
+Project		study_species				Mutable		Species							
+Project		use_sensors		Kailin G-sheet		Mutable		approaches	yes						
+Project		use_approaches		Kailin G-sheet		Mutable		data_modalities							
+Project		produce_data_modality		Kailin G-sheet		Mutable		sensors	yes						
+Project		produce_data_type		Kailin G-sheet		Mutable		collected_data_type	yes						
+Project		develope_hardware_type				Mutable		string	yes						
+Project		develope_software_type				Mutable		software_type	yes						
+Project		use_analysis_method	statistical or computational methods do you primarily rely on for your data analysis			Mutable		string	yes						
+Project		use_analysis_types	types of analyses are you performing on your neural and behavioral data			Mutable		data_analysis_method	yes						
+Collaborator		name													
+Collaborator		email													
+Collaborator		organization													
+Collaborator		ORCID_id													
+Species		id													
+Species		name	human readable												
+Species		full_name	full name												
+Abstract 		id													
+Abstract 		contents													
+Abstract 		keywords													
