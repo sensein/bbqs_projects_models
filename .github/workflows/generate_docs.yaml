@@ -34,6 +34,7 @@ jobs:
           mkdir docs
           cp -r src/docs/* docs/
           touch docs/.nojekyll
+          cp erdiagram/bbqs_projects_metadata.md docs/bbqs_projects_metadata.md
           gen-doc -d docs linkml-schema/bbqs_projects_metadata.yaml
           mv docs/index.md docs/index_bbqs_projects_metadata.md
           mv docs/index_main.md docs/index.md
